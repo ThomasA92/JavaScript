@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Evenements js</title>
+        <link rel="stylesheet" href="evenements.css">
+    </head>
+    <body>
+        <div class="conteneur">
+
+            <a href="" onclick="window.print()">Imprimer la page</a>
+
+            <hr>
+
+            <div class="div" id="div1" style="background-color: cornflowerblue;"></div>
+
+            <hr>
+
+            <div class="div" id="div2" style="background-color: Indigo; top: 0; left: 0"></div>
+
+            <hr>
+
+            <div id="blocImage1">
+                <img src="img/image1.jpg" alt="une image de paysage">
+                <img src="img/image2.jpg" alt="une image de paysage">
+            </div>
+
+            <hr>
+
+            <div id="blocImage2" data-image="image1">
+                <img src="img/image1.jpg" id="image1" alt="une image de paysage" style="opacity: 1;">
+                <img src="img/image2.jpg" id="image2" alt="une image de paysage">
+                <img src="img/image3.jpg" id="image3" alt="une image de paysage">
+                <img src="img/image4.jpg" id="image4" alt="une image de paysage">
+                <img src="img/image5.jpg" id="image5" alt="une image de paysage">
+            </div>
+            <a href="" id="changerImage">Changer d'image</a>
+
+            <hr>
+
+            <div class="div" id="div3" style="background-color: darkorchid;"></div>
+
+        </div>
+
+        <script src="evenements.js"></script>
+    </body>
+</html>
